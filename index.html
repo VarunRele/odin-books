@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <ul></ul>
+
+        <form action="#">
+            <div>
+                <label for="Title">Title of the book: </label>
+                <input type="text" id="Title" name="Title" placeholder="Harry Potter" required>
+            </div>
+            <div>
+                <label for="Author">Author of the book: </label>
+                <input type="text" id="Author" name="Author" placeholder="J. K. Rowling" required>
+            </div>
+            <div>
+                <label for="Pages">Number of pages in the book: </label>
+                <input type="number" min="10" id="Pages" name="Pages" required>
+            </div>
+            <div class="checkbox">
+                <label for="Read">Have you read the book? </label>
+                <input type="checkbox" id="Read" name="Read">
+            </div>
+
+            <button type="submit">Add Book</button>
+        </form>
+    </div>
+    
+
+    <script src="/Book.js" defer></script>
+</body>
+</html>
